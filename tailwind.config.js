@@ -11,6 +11,8 @@ module.exports = {
          orange: '#FF9F3E',
          hijau: '#47B096',
          hijau2:'#589687',
+         hijau3:'#C0EEE2',
+         hijau4:'#337564',
          hitam: '#1E1E1E',
       },
     },
