@@ -1,8 +1,8 @@
 {
   "/not-found": "app/not-found.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
   "/SetorSampah/page": "app/SetorSampah/page.js",
   "/Layanan/page": "app/Layanan/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/TentangKami/page": "app/TentangKami/page.js"
 }

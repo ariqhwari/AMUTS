@@ -44,19 +44,19 @@ const Beranda = () => {
   <div className="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-8 ">
     <div className="manfaat-1 p-2 ">
       <h1 className="lg:ml-28 md:ml-36 ml-28 flex items-center justify-center p-10 rounded-full bg-orange w-3 h-3 text-2xl font-bold text-white">1</h1>
-      <p className="mt-6 p-4 font-semi-bold bg-hijau rounded-lg text-white  ">Menyadarkan tentang <br></br>pentingnya kebersihan</p>
+      <p className="mt-6 md:p-6 p-4 font-semi-bold bg-hijau rounded-lg text-white sm:text-lg md:text-sm  ">Menyadarkan tentang pentingnya kebersihan</p>
     </div>
     <div className="manfaat-2 p-2">
       <h1 className="lg:ml-28 md:ml-36 ml-28 flex items-center justify-center p-10 rounded-full bg-orange w-3 h-3 text-2xl font-bold text-white">2</h1>
-      <p className="mt-6 p-4 font-semi-bold bg-hijau rounded-lg text-white">Mengurangi resiko penumpukan <br></br> sampah di lingkungan </p>
+      <p className="mt-6 md:p-6 p-4 font-semi-bold bg-hijau rounded-lg text-white sm:text-lg md:text-sm">Mengurangi resiko penumpukan sampah di lingkungan </p>
     </div>
     <div className="manfaat-3 p-2">
       <h1 className="lg:ml-28 md:ml-36 ml-28 flex items-center justify-center p-10 rounded-full bg-orange w-3 h-3 text-2xl font-bold text-white">3</h1>
-      <p className="mt-6 p-4 font-semi-bold bg-hijau rounded-lg text-white">Menjadi tempat penerima <br></br>hasil daur ulang sampah</p>
+      <p className="mt-6 md:p-6 p-4  font-semi-bold bg-hijau rounded-lg text-white sm:text-lg md:text-sm">Menjadi tempat penerima hasil daur ulang sampah</p>
     </div>
     <div className="manfaat-4 p-2">
       <h1 className="lg:ml-28 md:ml-36 ml-28 flex items-center justify-center p-10 rounded-full bg-orange w-3 h-3 text-2xl font-bold text-white">4</h1>
-      <p className="mt-6 p-4 font-semi-bold bg-hijau rounded-lg text-white">Mendapatkan keuntungan dari<br></br> penukaran sampah </p>
+      <p className="mt-6 md:p-6 p-4 font-semi-bold bg-hijau rounded-lg text-white sm:text-lg md:text-sm">Mendapatkan keuntungan dari penukaran sampah </p>
     </div>
   </div>
 </section>
@@ -65,7 +65,7 @@ const Beranda = () => {
 <section className="jenis-1 pt-2 relative">
   <div className="relative">
     <Image
-      src="/img/organik.jpg"
+      src="/img/organik.png"
       alt="img-hero"
       width={1440}
       height={390}
@@ -84,7 +84,7 @@ const Beranda = () => {
 <section className="jenis-2 pt-2 relative">
   <div className="relative">
     <Image
-      src="/img/anorganik.jpg"
+      src="/img/anorganik.png"
       alt="img-hero"
       width={1440}
       height={390}
@@ -102,7 +102,7 @@ const Beranda = () => {
 <section className="jenis-3 pt-2 relative">
   <div className="relative">
     <Image
-      src="/img/batre.jpg"
+      src="/img/batre.png"
       alt="img-hero"
       width={1440}
       height={390}
