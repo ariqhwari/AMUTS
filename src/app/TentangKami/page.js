@@ -34,7 +34,7 @@ const Tentangkami = () => {
               />
             </div>
             <h3 className="md:p-2 bg-hijau2 mt-3 flex font-bold md:text-2xl text-xl text-white justify-center rounded-xl">
-              Fahmi
+              <Link href="https://www.linkedin.com/in/moch-fahmi-yasir-07a242274/">Fahmi</Link>
             </h3>
           </div>
           <div className="foto-2 md:w-52 w-40 overflow-hidden">
@@ -49,9 +49,7 @@ const Tentangkami = () => {
               />
             </div>
             <h3 className="md:p-2 bg-hijau2 mt-3 flex font-bold md:text-2xl text-xl text-white justify-center rounded-xl">
-              {" "}
-              <Link href="https://www.linkedin.com/in/khairul-badri-b388a4283/" />{" "}
-              Atta
+              <Link href={"https://www.linkedin.com/in/achmad-ata-irsyadudin-4aa457279/"}>Atta</Link>
             </h3>
           </div>
           <div className="foto-3 md:w-52 w-40 overflow-hidden">
@@ -81,7 +79,7 @@ const Tentangkami = () => {
               />
             </div>
             <h3 className="md:p-2 bg-hijau2 mt-3 flex font-bold md:text-2xl text-xl text-white justify-center rounded-xl">
-              Bagus
+              <Link href={"https://www.linkedin.com/in/bagusmazzz/"}>Bagus</Link>
             </h3>
           </div>
           <div className="foto-5 md:w-52 w-40 overflow-hidden">
@@ -96,7 +94,7 @@ const Tentangkami = () => {
               />
             </div>
             <h3 className="md:p-2 bg-hijau2 mt-3 flex font-bold md:text-2xl text-xl text-white justify-center rounded-xl">
-              Ariq
+              <Link href={"https://www.linkedin.com/in/ariqhwari"}>Ariq</Link>
             </h3>
           </div>
         </div>
