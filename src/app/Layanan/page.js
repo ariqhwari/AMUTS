@@ -7,7 +7,7 @@ const LayananSampah = () => {
     <div>
       {/* Hero Section */}
       <section
-        className="bg-center text-white py-24 relative opacity-90	brightness-90 contrast-125"
+        className="mt-2 bg-center text-white py-24 relative opacity-90	brightness-90 contrast-125"
         style={{ backgroundImage: "url('/img/bg-layanan.png')" }}
       >
         <div className="p-2 container mx-auto text-center relative z-10">

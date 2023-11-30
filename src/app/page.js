@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Beranda = () => {
   return (
-    <main className="main-content min-h-screen relative">
+    <main className="mt-2 main-content min-h-screen relative">
       {/* Beranda Layer-1 */}
       <section className="relative">
         <Image

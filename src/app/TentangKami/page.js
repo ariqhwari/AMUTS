@@ -45,7 +45,7 @@ const Tentangkami = () => {
                 width={208}
                 height={240}
                 priority
-                className="object-cover md:h-60 h-48 rounded-xl border-solid border-4 border-hijau2 transition-transform transform-gpu hover:translate-y-[-10px] hover:duration-1000 hover:ease-out"
+                className="object-cover md:h-60 h-48 rounded-xl border-solid border-4 border-hijau2 transition-transform transform-gpu hover:translate-y-[-10px] hover:duration-1000 hover:ease-out shadow-2xl	"
               />
             </div>
             <h3 className="md:p-2 bg-hijau2 mt-3 flex font-bold md:text-2xl text-xl text-white justify-center rounded-xl">
@@ -60,7 +60,7 @@ const Tentangkami = () => {
                 width={208}
                 height={240}
                 priority
-                className="object-cover md:h-60 h-48 rounded-xl border-solid border-4 border-hijau2 transition-transform transform-gpu hover:translate-y-[-10px] hover:duration-1000 hover:ease-out"
+                className="object-cover md:h-60 h-48 rounded-xl border-solid border-4 border-hijau2 transition-transform transform-gpu hover:translate-y-[-10px] hover:duration-1000 hover:ease-out shadow-2xl	"
               />
             </div>
             <h3 className="md:p-2 bg-hijau2 mt-3 flex font-bold md:text-2xl text-xl text-white justify-center rounded-xl">
@@ -75,7 +75,7 @@ const Tentangkami = () => {
                 width={208}
                 height={240}
                 priority
-                className="object-cover md:h-60 h-48 rounded-xl border-solid border-4 border-hijau2 transition-transform transform-gpu hover:translate-y-[-10px] hover:duration-1000 hover:ease-out"
+                className="object-cover md:h-60 h-48 rounded-xl border-solid border-4 border-hijau2 transition-transform transform-gpu hover:translate-y-[-10px] hover:duration-1000 hover:ease-out shadow-2xl	"
               />
             </div>
             <h3 className="md:p-2 bg-hijau2 mt-3 flex font-bold md:text-2xl text-xl text-white justify-center rounded-xl">
@@ -90,7 +90,7 @@ const Tentangkami = () => {
                 width={208}
                 height={240}
                 priority
-                className="object-cover md:h-60 h-48 rounded-xl border-solid border-4 border-hijau2 transition-transform transform-gpu hover:translate-y-[-10px] hover:duration-1000 hover:ease-out"
+                className="object-cover md:h-60 h-48 rounded-xl border-solid border-4 border-hijau2 transition-transform transform-gpu hover:translate-y-[-10px] hover:duration-1000 hover:ease-out shadow-2xl	"
               />
             </div>
             <h3 className="md:p-2 bg-hijau2 mt-3 flex font-bold md:text-2xl text-xl text-white justify-center rounded-xl">
