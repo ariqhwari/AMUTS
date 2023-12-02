@@ -3,17 +3,17 @@ import Link from "next/link";
 
 const Tentangkami = () => {
   return (
-    <section>
+    <section >
       <div className="Tentang-kami-1 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 p-10 min-h-full gap-5">
-        <div className="contact">
-          <h1 className="text-3xl text-hijau4 font-bold">Hubungi Kami</h1>
-          <p className="mt-10 font-semi-bold md:text-lg text-base text-hijau4">
+        <div className=" contact">
+          <h1 className="md:pl-10 text-3xl text-hijau4 font-bold">Hubungi Kami</h1>
+          <p className="md:pl-10 mt-10 font-semi-bold md:text-lg text-base text-hijau4">
             AMUTS Office<br></br>JL. Jendral Sudirman Jakarta Utara <br></br>
             Phone +6285234590071
           </p>
         </div>
         <div className="maps bg-hijau flex md:w-96 w-72 md:h-56 h-48 items-center justify-center rounded-xl right-0 ">
-          <h1 className="font-bold text-center ">Google Maps</h1>
+        <iframe className="bg-hijau p-1 rounded-xl"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253885.5429447028!2d106.67708256864279!3d-6.135860756699112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f58ab1132fd5%3A0x2623f5a6c83f3b27!2sJakarta%20Utara%2C%20Jkt%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1701350860329!5m2!1sid!2sid" width="100%" height="100%" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
 

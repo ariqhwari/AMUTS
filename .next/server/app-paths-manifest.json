@@ -1,6 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/Layanan/page": "app/Layanan/page.js",
   "/SetorSampah/page": "app/SetorSampah/page.js",
-  "/TentangKami/page": "app/TentangKami/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/TentangKami/page": "app/TentangKami/page.js",
+  "/Layanan/page": "app/Layanan/page.js"
 }
