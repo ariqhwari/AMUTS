@@ -1,4 +1,4 @@
-// File: C:\Users\BADRI\Desktop\Amuts-main\Amuts-main\src\app\SetorSampah\page.js
+// File: D:\Dicoding Indonesia\Capstone\cokk\src\app\SetorSampah\page.js
 import * as entry from '../../../../src/app/SetorSampah/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

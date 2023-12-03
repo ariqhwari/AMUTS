@@ -1,23 +1,29 @@
 {
-  "name": "amuts",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "14.0.3",
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8.54.0",
-    "gh-pages": "^6.1.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
-  }
+    "name": "amuts",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "mongoose": "^8.0.2",
+        "next": "14.0.3",
+        "next-auth": "^4.22.3",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.2",
+        "@types/react": "^18.2.40",
+        "autoprefixer": "^10.0.1",
+        "eslint": "^8.54.0",
+        "gh-pages": "^6.1.0",
+        "postcss": "^8",
+        "tailwindcss": "^3.3.0",
+        "typescript": "^5.3.2"
+    }
 }
