@@ -1,8 +1,16 @@
 {
+<<<<<<< HEAD
   "/page": "app/page.js",
   "/register/page": "app/register/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/Layanan/page": "app/Layanan/page.js",
   "/TentangKami/page": "app/TentangKami/page.js",
   "/SetorSampah/page": "app/SetorSampah/page.js"
+=======
+  "/SetorSampah/page": "app/SetorSampah/page.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/TentangKami/page": "app/TentangKami/page.js",
+  "/Layanan/page": "app/Layanan/page.js"
+>>>>>>> 6ee20bfea57ba90b2984659383c1331c8abe16ee
 }
