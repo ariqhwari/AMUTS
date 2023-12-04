@@ -842,6 +842,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(192 238 226 / var(--tw-bg-opacity));
 }
+.bg-hijau4 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 117 100 / var(--tw-bg-opacity));
+}
 .bg-orange {
   --tw-bg-opacity: 1;
   background-color: rgb(255 159 62 / var(--tw-bg-opacity));

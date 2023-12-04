@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="md:p-5 p-3 bg-hijau">
-      <p className="text-center md:text-lg text-sm text-white font-bold">
+    <footer className="md:p-5 p-3 bg-hijau4">
+      <p className="text-center text-sm text-white font-bold">
         Copyright © 2023 | Amuts - [ Jakarta Utara ]
       </p>
     </footer>
