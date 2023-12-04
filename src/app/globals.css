@@ -24,7 +24,7 @@ input {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(28, 175, 40);
+    background: #337564;
 }
 
 ::-webkit-scrollbar-thumb:hover {

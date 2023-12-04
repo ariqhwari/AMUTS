@@ -12,7 +12,7 @@ export default async function Home() {
     if (session) redirect("/dashboard");
 
     return (
-        <main className="mt-2 main-content min-h-screen relative">
+        <main className="main-content min-h-screen relative">
             <Navbar />
             {/* Beranda Layer-1 */}
             <section className="relative">
