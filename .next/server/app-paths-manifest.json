@@ -1,5 +1,9 @@
 {
+  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
+  "/SetorSampah/page": "app/SetorSampah/page.js",
+  "/Layanan/page": "app/Layanan/page.js",
+  "/TentangKami/page": "app/TentangKami/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/Layanan/page": "app/Layanan/page.js"
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }

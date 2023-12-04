@@ -16,6 +16,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/Layanan/page.js"
     ],
+    "/SetorSampah/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/SetorSampah/page.js"
+    ],
+    "/TentangKami/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/TentangKami/page.js"
+    ],
     "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
