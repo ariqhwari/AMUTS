@@ -7,7 +7,7 @@ const Tentangkami = () => {
     return (
         <section>
             <Navbar />
-            <div className="Tentang-kami-1 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 p-10 min-h-full gap-5">
+            <div className="Tentang-kami-1 bg-hijau3 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 p-10 min-h-full gap-5">
                 <div className="contact">
                     <h1 className="text-3xl text-hijau4 font-bold">Hubungi Kami</h1>
                     <p className="mt-10 font-semi-bold md:text-lg text-base text-hijau4">
