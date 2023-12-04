@@ -9,8 +9,13 @@
 # testing
 /coverage
 
+<<<<<<< HEAD
 # next.js
 /.next/
+=======
+next.js
+.next
+>>>>>>> e8e5112da755d5025dfb905bff0e939103a8fb27
 /out/
 
 # production
@@ -27,6 +32,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+<<<<<<< HEAD
+=======
+.env
+>>>>>>> e8e5112da755d5025dfb905bff0e939103a8fb27
 
 # vercel
 .vercel
