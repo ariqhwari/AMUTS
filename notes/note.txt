@@ -1,0 +1,3 @@
+Sebelumnya, saya telah melakukan commit pada tanggal 28 November
+Namun, karena adanya push -force, commit saya hilang karena tertimpa.
+Oleh karena itu, saya melakukan commit ulang sebagai bukti progres.
