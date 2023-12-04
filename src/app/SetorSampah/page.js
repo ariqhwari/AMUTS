@@ -37,6 +37,7 @@ const HomePage = () => {
           <Formulir onSubmit={handleConfirmation} />
         </div>
       </div>
+      <Footer />
     </section>
   );
 };

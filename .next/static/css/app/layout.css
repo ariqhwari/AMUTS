@@ -1634,6 +1634,14 @@ input {
 
 @media (min-width: 640px) {
 
+  .sm\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .sm\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .sm\:w-1\/5 {
     width: 20%;
   }
@@ -1644,6 +1652,14 @@ input {
 
   .sm\:p-4 {
     padding: 1rem;
+  }
+
+  .sm\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .sm\:pt-5 {
+    padding-top: 1.25rem;
   }
 
   .sm\:text-lg {
@@ -1759,6 +1775,10 @@ input {
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .md\:pt-2 {
+    padding-top: 0.5rem;
   }
 
   .md\:text-2xl {

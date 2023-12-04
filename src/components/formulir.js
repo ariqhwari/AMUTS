@@ -66,7 +66,7 @@ const Formulir = ({ onSubmit }) => {
                     Harga per Kilo
                     <input type="number" name="hargaKilo" placeholder='Masukan Jumlah Sampah' value={formData.hargaKilo} onChange={handleChange} className='border border-1 w-11/12 border-color-hijautua p-2 rounded font-normal' />
                 </label>
-                <button type="submit" className='justify-center bg-hijau2 hover:bg-orange w-1/2 py-2 text-white font-semibold rounded-xl'>Kirim</button>
+                <button type="submit" className='justify-center bg-hijau4 hover:bg-orange w-1/2 py-2 text-white font-semibold rounded-xl'>Kirim</button>
             </form>
 
             {/* menampilkan pop up */}
