@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+## AMUTS
 
-First, run the development server:
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## TIM CAPSTONE
+```
+1. (F637YB220) – (Khairul Badri) 
+2. (F210YB207) – (Achmad Ata Irsyadudin) 
+3. (F120YB186) – (Bagus Mustaqiem Alfan Zulkarnain) 
+4. (F296YB219) – (Mochammad Fahmi Yasir) 
+5. (S296YB474) – (Muhammad Ariq Hawari Adiputra) 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## DEMO 
+ 
+Website : [CLICK HERE](https://www.figma.com/file/C4GtSbrKxHvdpBpHNgSbst/AMUTS?type=design&node-id=2-2&mode=design&t=kA9UVuNIi89JdahR-0)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## DESKRIPSI
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<div align="justify">
 
-## Learn More
+AMUTS: Ayo Mungut Sampah adalah sebuah platform daring yang mengedukasi dan menginspirasi warga Jakarta dalam pengelolaan sampah yang berkelanjutan. Dengan fokus yang khusus pada konteks Jakarta, AMUTS menjadi pusat informasi yang menyediakan pengetahuan mendalam mengenai permasalahan sampah yang dihadapi di ibu kota Indonesia ini. Melalui konten yang terkini dan relevan, AMUTS memberikan panduan praktis tentang teknik-teknik daur ulang yang dapat diterapkan secara efektif dalam kehidupan sehari-hari di lingkungan perkotaan.
 
-To learn more about Next.js, take a look at the following resources:
+Keberadaan AMUTS tidak hanya sebagai sumber informasi, tetapi juga sebagai wadah bagi kolaborasi dan keterlibatan aktif masyarakat Jakarta dalam menjaga lingkungan mereka. Dengan memanfaatkan fitur-fitur AMUTS masyarakat dapat membangun jaringan yang solid antara individu, komunitas, serta berbagai pihak terkait di Jakarta. Kolaborasi dengan masyarakat setempat dan organisasi lingkungan menjadi bagian penting dalam misi AMUTS untuk meningkatkan kesadaran akan kebersihan lingkungan di tengah kota yang padat ini.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dengan nama yang menggugah semangat, AMUTS: Ayo Mungut Sampah, menegaskan ajakan untuk bertindak dan menjadikan pengelolaan sampah sebagai tanggung jawab bersama. Sumber daya tambahan yang yang berupa fitur layanan dan setor sampah memungkinkan warga Jakarta untuk mengambil langkah konkret dalam membentuk budaya peduli lingkungan dalam kehidupan sehari-hari. Dengan komitmen yang kuat untuk memberdayakan warga Jakarta menjadi agen perubahan dalam menghadapi tantangan sampah, AMUTS menjadi rumah bagi siapa saja yang ingin berkontribusi dalam menjaga kebersihan, keberlanjutan, dan keindahan ibu kota Indonesia ini.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+</div>
 
-## Deploy on Vercel
+#### ACCOUNT ADMIN
+E-mail : ```admin@gmail.com```<br>
+Password : ```admin```
+<div align="center">
+  
+## WEBSITE VIEW
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Beranda
+![Halooo](https://github.com/ariqhwari/AMUTS/blob/main/public/img/beranda.png)
+### Layanan
+![Halooo](https://github.com/ariqhwari/AMUTS/blob/main/public/img/layanan.png)
+### Setor Sampah
+![Halooo](https://github.com/ariqhwari/AMUTS/blob/main/public/img/setor.png)
+### Tentang Kami
+![Halooo](https://github.com/ariqhwari/AMUTS/blob/main/public/img/tentang.png)
+### Login Admin
+![Halooo](https://github.com/ariqhwari/AMUTS/blob/main/public/img/login.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+</div>
