@@ -1,7 +1,6 @@
 import connect from "@/utils/db";
 import datas from "../../../models/data";
 import { NextResponse } from "next/server";
-import Datalist from "@/components/list/datalist";
 
 export async function POST(request) {
     const {

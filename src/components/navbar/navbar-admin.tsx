@@ -3,7 +3,6 @@ import React from "react";
 import Link from "next/link";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
-import { IoPerson } from "react-icons/io5";
 
 const Navbar = () => {
     const { data: session } = useSession();
