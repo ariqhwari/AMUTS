@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const getDataById = async (id) => {
     try {
-        const res = await fetch(`http://localhost:3000/api/data/${id}`, {
+        const res = await fetch(`https://amuts-3n8aq1hus-muhammad-ariq-hawari-adiputras-projects.vercel.app/api/data/${id}`, {
             cache: "no-store",
         });
 
