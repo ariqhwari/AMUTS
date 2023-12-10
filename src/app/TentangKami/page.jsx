@@ -1,5 +1,5 @@
 import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/navbar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,7 +26,7 @@ const Tentangkami = () => {
                 </h1>
                 <div className="ml-12 grid lg:grid-cols-5 md:grid-cols-3  p-5 gap-4 justify-center">
                     <div className="foto-1 md:w-52 w-40 overflow-hidden">
-                        <div className="mt-10 relative transition-transform transform-gpu hover:translate-y-[-20px] hover:durati1000 hover:ease-out transition-transform transform-gpu duration-500 ease-in hover:translate-y-[-20px] hover:duration-1000 hover:ease-out ">
+                        <div className="mt-10 relative transition-transform transform-gpu hover:durati1000 hover:ease-out duration-500 ease-in hover:translate-y-[-20px] hover:duration-1000 ">
                             <Image
                                 src="/img/Fahmi.png"
                                 alt="img-hero"
@@ -41,7 +41,7 @@ const Tentangkami = () => {
                         </h3>
                     </div>
                     <div className="foto-2 md:w-52 w-40 overflow-hidden">
-                        <div className="mt-10 relative transition-transform transform-gpu hover:translate-y-[-20px] hover:duration-1000 hover:ease-out transition-transform transform-gpu duration-500 ease-in hover:translate-y-[-20px] hover:duration-1000 hover:ease-out">
+                        <div className="mt-10 relative transition-transform transform-gpu hover:translate-y-[-20px] hover:duration-1000 hover:ease-out duration-500 ease-in">
                             <Image
                                 src="/img/Atta.png"
                                 alt="foto-team"
@@ -56,7 +56,7 @@ const Tentangkami = () => {
                         </h3>
                     </div>
                     <div className="foto-3 md:w-52 w-40 overflow-hidden">
-                        <div className="mt-10 relative transition-transform transform-gpu hover:translate-y-[-20px] hover:duration-1000 hover:ease-out transition-transform transform-gpu duration-500 ease-in hover:translate-y-[-20px] hover:duration-1000 hover:ease-out">
+                        <div className="mt-10 relative transition-transform transform-gpu hover:translate-y-[-20px] hover:duration-1000 duration-500 ease-in hover:ease-out">
                             <Image
                                 src="/img/Badri.png"
                                 alt="foto-team"
@@ -71,7 +71,7 @@ const Tentangkami = () => {
                         </h3>
                     </div>
                     <div className="foto-4 md:w-52 w-40 overflow-hidden">
-                        <div className="mt-10 relative transition-transform transform-gpu hover:translate-y-[-20px] hover:duration-1000 hover:ease-out transition-transform transform-gpu duration-500 ease-in hover:translate-y-[-20px] hover:duration-1000 hover:ease-out">
+                        <div className="mt-10 relative hover:translate-y-[-20px] hover:duration-1000 hover:ease-out transition-transform transform-gpu duration-500 ease-in">
                             <Image
                                 src="/img/Bagus.png"
                                 alt="foto-team"
@@ -86,7 +86,7 @@ const Tentangkami = () => {
                         </h3>
                     </div>
                     <div className="foto-5 md:w-52 w-40 overflow-hidden">
-                        <div className="mt-10 relative transition-transform transform-gpu hover:translate-y-[-20px] hover:duration-1000 hover:ease-out transition-transform transform-gpu duration-500 ease-in hover:translate-y-[-20px] hover:duration-1000 hover:ease-out">
+                        <div className="mt-10 relative transition-transform transform-gpu hover:translate-y-[-20px] hover:duration-1000 hover:ease-out duration-500 ease-in">
                             <Image
                                 src="/img/Ariq.png"
                                 alt="foto-team"

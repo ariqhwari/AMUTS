@@ -1,9 +1,8 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import Formulir from "../../components/formulir";
+import Formulir from "../../components/form";
 import Image from "next/image";
-import Navbar from "../../components/navbar";
+import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer";
 
 const HomePage = () => {

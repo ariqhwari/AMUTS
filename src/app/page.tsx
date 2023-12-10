@@ -1,5 +1,5 @@
 import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/navbar";
 import Image from "next/image";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
@@ -20,7 +20,7 @@ export default async function Home() {
                     alt="img-hero"
                     width={1460}
                     height={638}
-                    className="lg:w-full lg:h-full md:h-80 h-60 object-cover  opacity-80	brightness-75 contrast-125		"
+                    className="lg:w-full lg:h-full md:h-80 h-60 object-cover opacity-80 brightness-75 contrast-125"
                     priority
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-full md:w-3/4 lg:w-1/2 md:px-4 px-2">

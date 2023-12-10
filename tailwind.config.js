@@ -17,7 +17,9 @@ module.exports = {
                 //  second color
                 primary: '#00BA8B',
                 secondary: '#FF9F3E',
-                putih: '#ffffff',
+                ijo: '#1aa06d',
+                putih: '#ddd',
+                coklat: '#eee',
                 hijaumuda: '#93E9BE',
                 hijautua: '#004930'
             },

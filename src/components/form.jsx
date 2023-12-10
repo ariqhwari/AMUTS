@@ -136,17 +136,13 @@ const Formulir = () => {
             {/* menampilkan pop up */}
             {showConfirmation && (
                 <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex items-center justify-center">
-                    <div className="bg-hijau text-white text-sm p-4 border md:w-1/4 md:h-max w-11/2 rounded shadow-sm">
+                    <div className="bg-white text-black text-sm p-4 border md:w-1/4 md:h-max w-11/2 rounded shadow-sm">
                         <h1 className='flex ml-18 font-bold text-xl text-color-hijautua mb-2'>Konfirmasi</h1>
                         <hr />
                         <div className='grid grid-cols-2 gap-2 px-4 mt-2'>
                             <div>
                                 <h2 className='text-color-hijautua font-semibold'>Nama</h2>
-                                <p placeholder='ID'>{id}</p>
-                            </div>
-                            <div>
-                                <h2 className='text-color-hijautua font-semibold'>Nama</h2>
-                                <p placeholder='Nama'>{nama}</p>
+                                <p>{nama}</p>
                             </div>
                             <div>
                                 <h2 className='text-color-hijautua font-semibold'>Alamat</h2>
@@ -175,8 +171,8 @@ const Formulir = () => {
                         </div>
 
                         <div className='flex justify-between px-8 gap-3' >
-                            <button onClick={handleConfirmation} className="p-2 bg-orange text-color-putih w-1/2 rounded-xl hover:scale-105">Konfirmasi</button>
-                            <button onClick={() => setShowConfirmation(false)} className="p-2 w-1/2 rounded-xl hover:border border-color-secondary bg-orange">Batal</button>
+                            <button onClick={handleConfirmation} className="p-2 detail">Konfirmasi</button>
+                            <button onClick={() => setShowConfirmation(false)} className="p-2 batal">Batal</button>
                         </div>
                     </div>
                 </div>
@@ -192,14 +188,14 @@ const Formulir = () => {
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 7L9.00004 18L3.99994 13" stroke="#000000" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
                             </div>
                             <div className="content">
-                                <span className="title">Order validated</span>
-                                <p className="message">Thank you for your purchase. you package will be delivered within 2 days of your purchase</p>
+                                <span className="title">Thank you</span>
+                                <p className="message">Terima kasih telah membuang sampah pada tempatnya</p>
                             </div>
                             <div className="actions">
                                 <Link href={`/receipt/${id}`}>
-                                    <button className="history" type="button">History</button>
+                                    <button className="detail" type="button">Detail</button>
                                 </Link>
-                                <button className="track" onClick={() => setIsUploaded(false)} type="button">Track my package</button>
+                                <button className="batal mt-3" onClick={() => setIsUploaded(false)} type="button">Close</button>
                             </div>
                         </div>
                     </div>

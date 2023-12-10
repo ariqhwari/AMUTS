@@ -22,36 +22,16 @@ const Navbar = () => {
             </div>
             <div className="flex md:gap-4 gap-2 mb-4 md:p-2 p-2 md:text-sm text-xs font-semibold items-center text-center">
                 {/* jika page aktif, maka navbar akan diberi background, jika tidak bakal normal */}
-                <Link
-                    className={`link ${pathname === "/" ? "bg-orange rounded-full py-2 px-4" : ""
-                        }`}
-                    href={"/"}
-                >
+                <Link className={`link ${pathname === "/" ? "bg-orange rounded-full py-2 px-4" : ""}`} href={"/"}>
                     Beranda
                 </Link>
-                <Link
-                    className={`link ${pathname === "/Layanan" ? " bg-orange rounded-full py-2 px-4" : ""
-                        }`}
-                    href={"/Layanan"}
-                >
+                <Link className={`link ${pathname === "/Layanan" ? " bg-orange rounded-full py-2 px-4" : ""}`} href={"/Layanan"}>
                     Layanan
                 </Link>
-                <Link
-                    className={`link ${pathname === "/SetorSampah"
-                        ? "bg-orange rounded-full py-2 px-4"
-                        : ""
-                        }`}
-                    href={"/SetorSampah"}
-                >
+                <Link className={`link ${pathname === "/SetorSampah" ? "bg-orange rounded-full py-2 px-4" : ""}`} href={"/SetorSampah"}>
                     Setor Sampah
                 </Link>
-                <Link
-                    className={`link ${pathname === "/TentangKami"
-                        ? "bg-orange rounded-full py-2 px-4 "
-                        : ""
-                        }`}
-                    href={"/TentangKami"}
-                >
+                <Link className={`link ${pathname === "/TentangKami" ? "bg-orange rounded-full py-2 px-4 " : ""}`} href={"/TentangKami"}>
                     Tentang Kami
                 </Link>
             </div>

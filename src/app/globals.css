@@ -337,7 +337,7 @@ input {
     margin: 0.75rem 1rem;
 }
 
-.history {
+.detail {
     display: inline-flex;
     padding: 0.5rem 1rem;
     background-color: #1aa06d;
@@ -352,9 +352,8 @@ input {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
-.track {
+.batal {
     display: inline-flex;
-    margin-top: 0.75rem;
     padding: 0.5rem 1rem;
     color: #242525;
     font-size: 1rem;
@@ -391,7 +390,8 @@ input {
 }
 
 .invoice-box table {
-    width: 100%;
+    width: 600px;
+    height: 14rem;
     line-height: inherit;
     text-align: left;
     border-collapse: collapse;
@@ -404,16 +404,6 @@ input {
 
 .invoice-box table tr td:nth-child(2) {
     text-align: right;
-}
-
-.invoice-box table tr.top table td {
-    padding-bottom: 20px;
-}
-
-.invoice-box table tr.top table td.title {
-    font-size: 45px;
-    line-height: 45px;
-    color: #333;
 }
 
 .invoice-box table tr.information table td {
@@ -441,18 +431,4 @@ input {
 .invoice-box table tr.total td:nth-child(2) {
     border-top: 2px solid #eee;
     font-weight: bold;
-}
-
-@media only screen and (max-width: 600px) {
-    .invoice-box table tr.top table td {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-
-    .invoice-box table tr.information table td {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
 }
