@@ -62,7 +62,7 @@ const Formulir = () => {
         e.preventDefault();
 
         try {
-            const res = await fetch("https://amuts-ariqhawari.vercel.app/api/data", {
+            const res = await fetch("https://amuts.vercel.app/api/data", {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json",
