@@ -1,6 +1,6 @@
 "use client";
 
-import Formulir from "../../components/form";
+import Form from "../../components/form";
 import Image from "next/image";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer";
@@ -10,8 +10,11 @@ const HomePage = () => {
     return (
         <section>
             <Navbar />
-            <div className="p-5 md:grid grid-cols-2 mb-72">
-                <div>
+            <h1 className="text-2xl font-bold text-center mt-5 text-color-hijautua">
+                Form Penukaran Sampah
+            </h1>
+            <div className="p-5 md:grid grid-cols-2">
+                <div className="m-6">
                     <Image
                         src={"/img/setor-bg.jpg"}
                         alt="setor-sampah"
@@ -21,10 +24,7 @@ const HomePage = () => {
                     />
                 </div>
                 <div className="p-5 col-span-1">
-                    <h1 className="text-2xl font-bold text-color-hijautua mb-5">
-                        Form Penukaran Sampah
-                    </h1>
-                    <Formulir />
+                    <Form />
                 </div>
             </div>
             <Footer />

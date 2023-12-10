@@ -23,9 +23,9 @@ const Datalist = async () => {
         const { data } = await getdata();
         return (
 
-            <table className="border-collapse border bg-slate-100 w-full">
+            <table className="border-collapse border w-full">
                 <thead>
-                    <tr>
+                    <tr className='bg-slate-50'>
                         <th className="border border-gray-400 px-4 py-2">Nama</th>
                         <th className="border border-gray-400 px-4 py-2">Alamat</th>
                         <th className="border border-gray-400 px-4 py-2">No. Telepon</th>

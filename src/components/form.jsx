@@ -98,39 +98,40 @@ const Formulir = () => {
             <form onSubmit={handleSubmit}>
                 <label className='flex flex-col mb-4 font-semibold'>
                     Nama
-                    <input type="text" name="nama" placeholder='Masukan Nama' value={nama} onChange={(e) => setnama(e.target.value)} className='border border-1 w-11/12 border-color-hijautua p-2 rounded font-normal' />
+                    <input type="text" name="nama" placeholder='Masukan Nama' required value={nama} onChange={(e) => setnama(e.target.value)} className='border border-1 w-full border-green-500 p-2 rounded font-normal' />
                 </label>
                 <label className='flex flex-col mb-4 font-semibold'>
                     Alamat
-                    <input type="text" name="alamat" placeholder='Masukan Alamat' value={alamat} onChange={(e) => setalamat(e.target.value)} className='border border-1 w-11/12 border-color-hijautua p-2 rounded font-normal' />
+                    <input type="text" name="alamat" placeholder='Masukan Alamat' value={alamat} onChange={(e) => setalamat(e.target.value)} className='border border-1 w-full border-green-500 p-2 rounded font-normal' />
                 </label>
                 <label className='flex flex-col mb-4 font-semibold'>
                     No. Telp
-                    <input type="number" name="noTelp" placeholder='Masukan No.Telp' value={noTelp} onChange={(e) => setnoTelp(e.target.value)} className='border border-1 w-11/12 border-color-hijautua p-2 rounded font-normal' />
+                    <input type="number" name="noTelp" placeholder='Masukan No.Telp' value={noTelp} onChange={(e) => setnoTelp(e.target.value)} className='border border-1 w-full border-green-500 p-2 rounded font-normal' />
                 </label>
-                <label className='flex flex-col my-4 font-semibold'>
+                <label className='flex flex-col mb-4 font-semibold'>
                     Jumlah Sampah
-                    <input type="number" name="jumlahSampah" placeholder='Masukan Berat Sampah Per Kilogram' value={jumlahSampah} onChange={(e) => setjumlahSampah(e.target.value)} className='border border-1 w-11/12 border-color-hijautua p-2 rounded font-normal' />
+                    <input type="number" name="jumlahSampah" required placeholder='Masukan Berat Sampah Per Kilogram' value={jumlahSampah} onChange={(e) => setjumlahSampah(e.target.value)} className='border border-1 w-full border-green-500 p-2 rounded font-normal' />
                 </label>
-                <label className='font-semibold'>
+                <label className='flex flex-col mt-4 font-semibold'>
                     Jenis sampah
                 </label>
-                <select name="jenisSampah" placeholder='Masukan Jenis Sampah' value={jenisSampah} onChange={handleChange} className='border border-1 w-11/12 border-color-hijautua p-2 rounded font-normal'>
+                <select name="jenisSampah" placeholder='Masukan Jenis Sampah' value={jenisSampah} onChange={handleChange} className='border border-1 w-full border-green-500 p-2 rounded font-normal appearance-none bg-white bg-opacity-90 bg-no-repeat bg-right pr-8'>
                     <option value="">Pilih Jenis Sampah</option>
                     <option value="Kertas">Kertas</option>
                     <option value="Kardus">Kardus</option>
                     <option value="Botolkaca">Botol Kaca</option>
                     <option value="Kaleng">Kaleng</option>
                 </select>
-                <label className='flex flex-col mb-4 font-semibold'>
+                <label className='flex flex-col my-4 font-semibold'>
                     Harga per Kilo
-                    <input type="number" name="hargaKilo" readOnly value={hargaKilo} onChange={handleChange} className='border border-1 w-11/12 border-color-hijautua p-2 rounded font-normal' />
+                    <input type="number" name="hargaKilo" readOnly value={hargaKilo} onChange={handleChange} className='border border-1 w-full border-green-500 p-2 rounded font-normal' />
                 </label>
-                <label className='flex flex-col mb-4 font-semibold'>
+                <label className='flex flex-col my-4 font-semibold'>
                     Total Harga
-                    <input type="number" name="totalHarga" readOnly value={totalHarga} onChange={handleChange} className='border border-1 w-11/12 border-color-hijautua p-2 rounded font-normal' />
+                    <input type="number" name="totalHarga" readOnly value={totalHarga} onChange={handleChange} className='border border-1 w-full border-green-500 p-2 rounded font-normal' />
                 </label>
-                <button type="submit" className='justify-center bg-hijau2 hover:bg-orange w-1/2 py-2 text-white font-semibold rounded-xl'>Kirim</button>
+                <button type="submit" className='bg-green-500 hover:bg-orange-500 w-1/2 py-2 text-white font-semibold rounded-xl mt-2'>Kirim</button>
+
             </form>
 
             {/* menampilkan pop up */}

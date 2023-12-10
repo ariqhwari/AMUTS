@@ -9,7 +9,7 @@ const Navbar = () => {
     const { data: session } = useSession();
 
     return (
-        <div className="bg-white shadow-2xl">
+        <div className="bg-white shadow-md m-3 rounded-xl">
             <ul className="flex justify-between m-2 items-center">
                 <div>
                     <Image src={'/img/logo-amuts.png'} alt='...' width={150} height={150} className="ml-8 object-cover" />
@@ -35,7 +35,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <button onClick={() => { signOut(); }}
-                                    className="p-2 px-5 -mt-1 bg-red-800 rounded-full text-white font-semibold hover:bg-blue-900 focus:outline-none focus:bg-blue-900">
+                                    className="p-2 px-5 -mt-1 bg-blue-900 rounded-full text-white font-semibold hover:bg-red-800 focus:outline-none focus:bg-red-800">
                                     Logout
                                 </button>
                             </li>
