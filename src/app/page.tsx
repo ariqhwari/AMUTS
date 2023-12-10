@@ -1,15 +1,9 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar/navbar";
 import Image from "next/image";
-import { getServerSession } from "next-auth";
-import { redirect } from "next/navigation";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+
 
 export default async function Home() {
-    const session = await getServerSession(authOptions);
-
-    if (session) redirect("/dashboard");
-
     return (
         <main className="main-content min-h-screen relative">
             <Navbar />
