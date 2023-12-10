@@ -33,7 +33,14 @@
         "**/*.ts",
         "**/*.tsx",
         ".next/types/**/*.ts",
-        "src/utils/SessionProvider.ja"
+        "src/utils/SessionProvider.ja",
+        "src/app/SetorSampah/page.jsx",
+        "src/app/receipt/[id]/page.jsx",
+        "src/app/api/data/route.js",
+        "src/components/form.jsx",
+        "src/app/Layanan/page.jsx",
+        "src/components/loaders.jsx",
+        "src/components/footer.tsx"
     ],
     "exclude": [
         "node_modules"
