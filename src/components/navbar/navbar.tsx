@@ -20,7 +20,7 @@ const Navbar = () => {
                     priority
                 />
             </div>
-            <div className="flex md:gap-4 gap-2 mb-4 md:p-2 p-2 md:text-sm text-xs font-semibold items-center text-center">
+            <div className="flex md:gap-4 gap-2 mb-4 md:p-2 p-2 md:text-sm text-xs text-hijau4 font-semibold items-center text-center">
                 {/* jika page aktif, maka navbar akan diberi background, jika tidak bakal normal */}
                 <Link className={`link ${pathname === "/" ? "bg-orange rounded-full py-2 px-4" : ""}`} href={"/"}>
                     Beranda

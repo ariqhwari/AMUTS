@@ -15,7 +15,7 @@
 
 ## DEMO 
  
-Website : [CLICK HERE](https://www.figma.com/file/C4GtSbrKxHvdpBpHNgSbst/AMUTS?type=design&node-id=2-2&mode=design&t=kA9UVuNIi89JdahR-0)
+Website : [CLICK HERE](https://amuts.vercel.app/)
 
 ## DESKRIPSI
 

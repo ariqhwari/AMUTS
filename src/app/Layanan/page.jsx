@@ -32,10 +32,10 @@ const LayananSampah = () => {
 
             {/* Main Content Section */}
             <section className="p-5 container mx-auto my-8">
-                <h2 className="lg:text-2xl md:text-xl text-lg text-hijau4 font-bold mb-8 text-center">
+                <h2 className="lg:text-3xl md:text-2xl text-xl text-hijau4 font-bold mb-8 text-center">
                     Jenis-jenis Sampah Yang Dapat Anda Setor{" "}
                 </h2>
-                <div className="place-items-stretch grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="pt-8 place-items-stretch grid grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Gambar Sampah menggunakan next/image */}
                     <div className="mb-8 text-center">
                         <div className="flex justify-center">
@@ -134,10 +134,10 @@ const LayananSampah = () => {
             </section>
 
             {/* Mari Berkontribusi Section */}
-            <section section className=" p-5 bg-green-200 py-16">
+            <section  className=" p-5 bg-green-200 py-16">
                 <div className="container mx-auto">
                     <div className="fitems-center justify-center grid md:grid-cols-2 ">
-                        <div className="md:ml-52 ml-20 w-2/3">
+                        <div className="md:ml-20 ml-10 w-2/3">
                             <Image
                                 src="/img/kontribusi.png"
                                 alt="Mari Berkontribusi"
@@ -147,7 +147,7 @@ const LayananSampah = () => {
                                 priority
                             />
                         </div>
-                        <div className="w-full ml-8">
+                        <div className="w-full">
                             <div className="p-8 rounded">
                                 <h2 className="lg:text-3xl md:text-xl text-xl  font-bold mb-8">
                                     Mari Berkontribusi
