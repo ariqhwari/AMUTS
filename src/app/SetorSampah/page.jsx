@@ -10,7 +10,7 @@ const HomePage = () => {
     return (
         <section>
             <Navbar />
-            <h1 className="text-2xl font-bold text-center mt-5 text-color-hijautua">
+            <h1 className="text-2xl font-bold text-center mt-5 text-hijau4">
                 Form Penukaran Sampah
             </h1>
             <div className="p-5 md:grid grid-cols-2">
