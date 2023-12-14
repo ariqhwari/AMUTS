@@ -3,7 +3,7 @@ import RemoveData from "../button/removeData";
 
 const getdata = async () => {
     try {
-        const res = await fetch("https://amuts.vercel.app/api/data", {
+        const res = await fetch("https://localhost:3000/api/data", {
             cache: "no-store",
         });
 

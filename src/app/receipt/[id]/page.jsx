@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const getDataById = async (id) => {
     try {
-        const res = await fetch(`https://amuts.vercel.app/api/data/${id}`, {
+        const res = await fetch(`https://localhost:3000/api/data/${id}`, {
             cache: "no-store",
         });
 
