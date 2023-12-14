@@ -130,7 +130,7 @@ const Formulir = () => {
                     Total Harga
                     <input type="number" name="totalHarga" readOnly value={totalHarga} onChange={handleChange} className='border border-1 w-full border-green-500 p-2 rounded font-normal' />
                 </label>
-                <button type="submit" className='bg-green-500 hover:bg-orange-500 w-1/2 py-2 text-white font-semibold rounded-xl mt-2'>Kirim</button>
+                <button type="submit" className='bg-hijau4 hover:bg-orange w-1/2 py-2 text-white font-semibold rounded-xl mt-2'>Kirim</button>
 
             </form>
 
