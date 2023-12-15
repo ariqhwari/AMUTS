@@ -58,8 +58,8 @@ const Login = () => {
 
     return (
         sessionStatus !== "authenticated" && (
-            <div className="flex  flex-col items-center justify-between p-24 ">
-                <div className="w-full max-w-md px-3 mx-auto mt-0 md:flex-0 shrink-0 mb-24">
+            <div className="flex  flex-col items-center justify-between m:p-24 p-10">
+                <div className="w-full h-full max-w-md px-3 mx-auto mt-0 md:flex-0 shrink-0 mb-24">
                     <div className="relative z-0 flex flex-col min-w-0 break-words bg-white border shadow-2xl rounded-2xl bg-clip-border">
                         <div className="p-6 mb-0 font-extrabold text-center text-2xl bg-white border-b-0 rounded-t-2xl">
                             <h5><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Login</span></h5>

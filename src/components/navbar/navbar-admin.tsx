@@ -8,33 +8,33 @@ const Navbar = () => {
     const { data: session } = useSession();
 
     return (
-        <div className="bg-white shadow-md m-3 rounded-xl">
-            <ul className="flex justify-between m-2 items-center">
+        <div className="bg-white shadow-md rounded-xl">
+            <ul className="flex justify-between items-center">
                 <div>
-                    <Image src={'/img/logo-amuts.png'} alt='...' width={150} height={150} className="ml-8 object-cover" />
+                    <Image src={'/img/logo-amuts.png'} alt='...' width={150} height={150} className="md:ml-4 ml-2 object-cover" />
                 </div>
-                <div className="flex gap-5 items-center mx-10">
+                <div className="flex gap-2">
                     <Link href="/">
-                        <li className="cursor-pointer text-black hover:bg-orange p-3 rounded-xl font-semibold mr-6">
+                        <li className="cursor-pointer text-black hover:bg-orange p-3 rounded-xl font-semibold  md:text-base text-sm">
                             Home
                         </li>
                     </Link>
                     {!session ? (
                         <>
                             <Link href="/login">
-                                <li className="cursor-pointer text-black hover:bg-orange p-3 rounded-xl font-semibold mr-6">
+                                <li className="cursor-pointer text-black hover:bg-orange p-3 rounded-xl font-semibold md:text-base text-sm">
                                     Login
                                 </li>
                             </Link>
                         </>
                     ) : (
                         <>
-                            <li className="text-black font-semibold mr-6">
+                            <li className="text-black font-semibold mr-2">
                                 {session.user?.name ? session.user?.name : session.user?.email}
                             </li>
                             <li>
                                 <button onClick={() => { signOut(); }}
-                                    className="p-2 px-5 -mt-1 bg-blue-900 rounded-full text-white font-semibold hover:bg-red-800 focus:outline-none focus:bg-red-800">
+                                    className="p-1 px-2 mt-1 bg-hijau rounded-full text-white font-semibold hover:bg-orange focus:outline-none focus:bg-red-800">
                                     Logout
                                 </button>
                             </li>

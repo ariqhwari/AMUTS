@@ -50,7 +50,7 @@ const Register = () => {
 
     if (sessionStatus === "loading") {
         return (
-            <div className="flex justify-center items-center h-screen bg-black">
+            <div className="flex justify-center items-center h-full bg-black">
                 <div className="p-8 rounded-lg">
                     <svg className="pl" width="240" height="240" viewBox="0 0 240 240">
                         <circle className="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" strokeWidth="20" strokeDasharray="0 660" strokeDashoffset="-330" strokeLinecap="round"></circle>
@@ -65,8 +65,8 @@ const Register = () => {
 
     return (
         sessionStatus !== "authenticated" && (
-            <div className="flex  flex-col items-center justify-between p-24 ">
-                <div className="w-full max-w-md px-3 mx-auto mt-0 md:flex-0 shrink-0 mb-24">
+            <div className="flex flex-col items-center justify-between md:p-24 p-10 ">
+                <div className="w-full h-full max-w-md px-8 mx-auto mt-0 md:flex-0 shrink-0">
                     <div className="relative z-0 flex flex-col min-w-0 break-words bg-white border shadow-2xl rounded-2xl bg-clip-border">
                         <div className="p-6 mb-0 font-extrabold text-center text-2xl bg-white border-b-0 rounded-t-2xl">
                             <h5><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Register</span></h5>
