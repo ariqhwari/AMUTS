@@ -15,14 +15,14 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-5 items-center mx-10">
                     <Link href="/">
-                        <li className="cursor-pointer text-black hover:text-hijau3 font-semibold mr-6">
+                        <li className="cursor-pointer text-black hover:bg-orange p-3 rounded-xl font-semibold mr-6">
                             Home
                         </li>
                     </Link>
                     {!session ? (
                         <>
                             <Link href="/login">
-                                <li className="cursor-pointer text-black hover:text-hijau3 font-semibold mr-6">
+                                <li className="cursor-pointer text-black hover:bg-orange p-3 rounded-xl font-semibold mr-6">
                                     Login
                                 </li>
                             </Link>
