@@ -15,26 +15,26 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-2">
                     <Link href="/">
-                        <li className="cursor-pointer text-black hover:bg-orange p-3 rounded-xl font-semibold  md:text-base text-sm">
+                        <li className="cursor-pointer hover:bg-orange md:p-4 p-2 rounded-xl font-semibold md:text-sm text-xs">
                             Home
                         </li>
                     </Link>
                     {!session ? (
                         <>
                             <Link href="/login">
-                                <li className="cursor-pointer text-black hover:bg-orange p-3 rounded-xl font-semibold md:text-base text-sm">
+                                <li className="cursor-pointer hover:bg-orange md:p-4 p-2 rounded-xl font-semibold md:text-sm text-xs">
                                     Login
                                 </li>
                             </Link>
                         </>
                     ) : (
                         <>
-                            <li className="text-black font-semibold mr-2">
+                            <li className="md:text-sm text-xs md:p-4 p-2 font-semibold">
                                 {session.user?.name ? session.user?.name : session.user?.email}
                             </li>
                             <li>
                                 <button onClick={() => { signOut(); }}
-                                    className="p-1 px-2 mt-1 bg-hijau rounded-full text-white font-semibold hover:bg-orange focus:outline-none focus:bg-red-800">
+                                    className="bg-hijau rounded-xl text-white font-semibold hover:bg-orange focus:outline-none focus:bg-red-800 md:text-sm text-xs md:p-4 p-2">
                                     Logout
                                 </button>
                             </li>
