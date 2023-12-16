@@ -36,7 +36,7 @@ const Dashboard = async () => {
                 {/* Bagian 70% */}
                 <div className=" bg-white rounded-xl md:p-2 p-5 md:m-2 m-4 shadow-xl w-screen md:w-full">
                     {/* Tampilan Data */}
-                    <h2 className=" md:py-5 py-10 md:text-left text-center text-xl font-semibold">Tampilan Data</h2>
+                    <h2 className=" md:py-5 py-10 md:text-center text-center text-xl font-semibold">Tampilan Data</h2>
                     <Userlist />
                 </div>
             </div>

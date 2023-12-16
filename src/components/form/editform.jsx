@@ -108,7 +108,7 @@ const EditForm = (props) => {
                             placeholder="Alamat"
                         />
                     </div>
-                    <div className="mb-4 md:w-1/2 md:mr-2">
+                    <div className="mb-4">
                         <input
                             name='newNoTelp'
                             onChange={(e) => setNewnoTelp(e.target.value)}
@@ -118,7 +118,7 @@ const EditForm = (props) => {
                             placeholder="No Telepon"
                         />
                     </div>
-                    <div className="mb-4 md:w-1/2 md:ml-2">
+                    <div className="mb-4">
                         <input
                             name='newJumlahSampah'
                             onChange={(e) => setNewJumlahSampah(e.target.value)}
@@ -143,7 +143,7 @@ const EditForm = (props) => {
                             <option value="Kaleng">Kaleng</option>
                         </select>
                     </div>
-                    <div className="mb-4 md:w-1/2 md:mr-2">
+                    <div className="mb-4">
                         <input
                             name='newHargaKilo'
                             value={newHargaKilo}
@@ -153,7 +153,7 @@ const EditForm = (props) => {
                             readOnly
                         />
                     </div>
-                    <div className="mb-4 md:w-1/2 md:ml-2">
+                    <div className="mb-4">
                         <input
                             name='newTotalHarga'
                             value={newTotalHarga}
