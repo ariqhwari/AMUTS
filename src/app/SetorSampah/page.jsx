@@ -1,6 +1,6 @@
 "use client";
 
-import Form from "../../components/form";
+import Form from "../../components/form/addform";
 import Image from "next/image";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer";

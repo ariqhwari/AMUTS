@@ -29,7 +29,7 @@ const Dashboard = async () => {
                     {/* Konten untuk pemilihan data */}
                     <h2 className="p-4 text-xl text-center font-semibold">Pilihan Data</h2>
                     <ul className="p-4 grid grid-flow-row">
-                        <Link href={'/dashboard/datalist'} className="m-2 text-center border rounded-2xl py-2 px-4">Data</Link>
+                        <Link href={'/dashboard'} className="m-2 text-center border rounded-2xl py-2 px-4">Data</Link>
                         <Link href={'/dashboard/userlist'} className="m-2 text-center shadow-lg bg-orange rounded-2xl py-2 px-4">Account</Link>
                     </ul>
                 </div>

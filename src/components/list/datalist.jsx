@@ -1,9 +1,11 @@
 import React from 'react'
 import RemoveData from "../button/removeData";
+import { HiPencilAlt } from "react-icons/hi";
+import Link from 'next/link';
 
 const getdata = async () => {
     try {
-        const res = await fetch("https://localhost:3000/api/data", {
+        const res = await fetch("https://amuts.vercel.app/api/data", {
             cache: "no-store",
         });
 
@@ -45,8 +47,16 @@ const Datalist = async () => {
                             <td className="border border-gray-400 px-4 py-2">{d.jenisSampah}</td>
                             <td className="border border-gray-400 px-4 py-2">{d.totalHarga}</td>
                             <td className="border border-gray-400 px-4 py-2">
-                                <RemoveData id={d._id} />
+                                <div className='flex items-center justify-center'>
+                                    <Link href={`dashboard/edit/${d.id}`} className=''>
+                                        <HiPencilAlt size={24} />
+                                    </Link>
+
+                                    <RemoveData id={d._id} />
+
+                                </div>
                             </td>
+
                         </tr>
                     ))}
                 </tbody>
