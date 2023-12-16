@@ -53,62 +53,70 @@ const Receipt = async ({ params }) => {
 
 
 
-        return (
-            <div className="h-screen flex items-center justify-center">
-                <div className="invoice-box">
-                    <div className="items-center justify-center flex">
-                        <Image src={"/img/logo-amuts.png"}
-                            alt="Company logo"
-                            className='max-w-full w-56'
-                            width={290}
-                            height={290}
-                            priority
-                        />
-                    </div>
-                    <table>
-                        <thead>
-                            <tr className="information">
-                                <td>
-                                    {nama}<br />
-                                    {alamat}<br />
-                                    {noTelp}
-                                </td>
-                                <td>
-                                    Invoice: {id}<br />
-                                    Created: {formattedDate}<br />
-                                </td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr className="heading">
-                                <td>Jenis</td>
-                                <td>Item</td>
-                            </tr>
-                            <tr className="item">
-                                <td>Berat Sampah</td>
-                                <td>{jumlahSampah} Kg</td>
-                            </tr>
-                            <tr className="item last">
-                                <td>{jenisSampah}</td>
-                                <td>Rp.{hargaKilo} / Kg</td>
-                            </tr>
-                            <tr className="total">
-                                <td></td>
-                                <td>Total: Rp.{totalHarga}.00</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>
-                                    <Link href={`/`}>
-                                        <button className='p-2 bg-hijau2 text-black w-1/2 rounded-xl hover:scale-105'>Home</button>
-                                    </Link>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div >
-        );
+return (
+  <div className="flex items-center justify-center">
+    <div className="bg-gray-100 pt-10 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 shadow-xl rounded-xl">
+      <div className="text-center">
+        <Image
+          src="/img/logo-amuts.png"
+          alt="Company logo"
+          className="mx-auto max-w-full w-56"
+          width={290}
+          height={290}
+          priority
+        />
+      </div>
+      <div className="border-collapse border gap-10 flex p-4 bg-gray-100">
+        <p className='ml-0 text-justify'>
+          {nama}
+          <br />
+          {alamat}
+          <br />
+          {noTelp}
+        </p>
+        <p className='mr-0 text-right'>
+          Invoice: {id}
+          <br />
+          Created: {formattedDate}
+        </p>
+      </div>
+      <table className="w-full border-collapse border">
+        <thead>
+          <tr className="border-collapse border bg-gray-200">
+            <th className="p-2">Jenis</th>
+            <th className="p-2">Item</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className=''>
+            <td className="p-2">Berat Sampah</td>
+            <td className="p-2 text-right">{jumlahSampah} Kg</td>
+          </tr>
+          <tr>
+            <td className="p-2">{jenisSampah}</td>
+            <td className="p-2 text-right">Rp.{hargaKilo} / Kg</td>
+          </tr>
+          <tr>
+            <td className="p-2"></td>
+            <td className="p-2 font-bold text-right">Total: Rp.{totalHarga}.00</td>
+          </tr>
+          <tr className='text-right'>
+            <td className="p-2"></td>
+            <td className="p-2">
+              <Link  href={`/`}>
+                <button className="p-4 font-bold bg-hijau text-white hover:scale-105 rounded-xl">
+                  Home
+                </button>
+              </Link>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+);
+
+
 
     } catch (error) {
         console.error("Error fetching data:", error);
