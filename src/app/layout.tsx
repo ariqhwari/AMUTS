@@ -24,10 +24,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     return (
         <html lang="en">
             <head>
-                {/* Add the viewport meta tag */}
+                <meta name="dicoding" content="yasirfahmi60@gmail.com"/>
                 <meta name="viewport" content={viewport} />
-
-                {/* Add the color theme */}
                 <meta name="theme-color" content="#fff" />
             </head>
             <body className={inter.className}>

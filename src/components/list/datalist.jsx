@@ -26,10 +26,10 @@ const Datalist = async () => {
       <table className="w-auto border-collapse border">
         <thead>
           <tr className="bg-hijau3">
-            <th className=" border border-gray-400 md:text-sm text-xs  md:py-2 md:p-5">
+            <th className=" border border-gray-400 md:text-sm text-xs  md:py-2 md:p-8 p-5">
               Nama
             </th>
-            <th className=" border border-gray-400 md:text-sm text-xs  md:py-2 md:p-5">
+            <th className=" border border-gray-400 md:text-sm text-xs  md:py-2 md:p-10 p-5">
               Alamat
             </th>
             <th className=" border border-gray-400 md:text-sm text-xs  md:py-2 md:p-5">
@@ -55,7 +55,7 @@ const Datalist = async () => {
               <td className="bg-slate-50 border border-gray-400 md:text-sm text-xs  md:py-2 py-0">
                 {d.nama}
               </td>
-              <td className="bg-slate-50 border border-gray-400 md:text-sm text-xs  md:py-2 py-0">
+              <td className="bg-slate-50 border border-gray-400 md:text-sm text-xs  md:px-10 px-0 md:py-2 py-0">
                 {d.alamat}
               </td>
               <td className="bg-slate-50 border border-gray-400 md:text-sm text-xs  md:py-2 py-0 px-1">
@@ -70,7 +70,7 @@ const Datalist = async () => {
               <td className="bg-slate-50 border border-gray-400 md:text-sm text-xs  md:py-2 py-0">
                 {d.totalHarga}
               </td>
-              <td className="bg-slate-50 border border-gray-400 md:text-sm text-xs md:py-2 py-0 md:px-0">
+              <td className="bg-slate-50 border border-gray-400 md:text-sm text-xs md:py-3 py-0 md:px-5">
                 <div className="flex items-center justify-center">
                   <Link href={`dashboard/edit/${d.id}`} className="">
                     <HiPencilAlt size={24} />
