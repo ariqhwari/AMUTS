@@ -13,9 +13,60 @@
 5. (S296YB474) – (Muhammad Ariq Hawari Adiputra) 
 ```
 
+## Instalasi
+
+Pastikan Node.js sudah terinstal di komputermu sebelum memulai.
+
+1. **Clone Repository:**
+
+    ```bash
+    git clone https://github.com/ariqhwari/amuts.git
+    cd nama-proyek
+    ```
+
+2. **Install Dependencies:**
+
+    Gunakan perintah berikut untuk menginstal paket yang diperlukan.
+
+    ```bash
+    npm install
+    ```
+
+## Penggunaan
+
+Setelah instalasi selesai, kamu bisa menjalankan proyek dengan langkah berikut:
+
+1. **Jalankan dalam Mode Pengembangan:**
+
+    ```bash
+    npm run dev
+    ```
+
+    Proyek akan berjalan dalam mode pengembangan. Buka browser dan akses [http://localhost:3000](http://localhost:3000) untuk melihat aplikasi.
+
+2. **Build untuk Produksi:**
+
+    ```bash
+    npm run build
+    ```
+
+    Ini akan membangun proyek untuk produksi.
+   
 ## DEMO 
  
-Website : [CLICK HERE](https://amuts.vercel.app/)
+Website : [Click Here](https://amuts.vercel.app/) <br>
+Admin : [Click Here](https://amuts.vercel.app/register)
+
+### Informasi Akun Admin:
+
+- Email :
+  ```bash
+  admin@gmail.com
+  ```
+- Password :
+  ```bash
+  admin
+  ```
 
 ## DESKRIPSI
 
@@ -28,10 +79,6 @@ Keberadaan AMUTS tidak hanya sebagai sumber informasi, tetapi juga sebagai wadah
 Dengan nama yang menggugah semangat, AMUTS: Ayo Mungut Sampah, menegaskan ajakan untuk bertindak dan menjadikan pengelolaan sampah sebagai tanggung jawab bersama. Sumber daya tambahan yang yang berupa fitur layanan dan setor sampah memungkinkan warga Jakarta untuk mengambil langkah konkret dalam membentuk budaya peduli lingkungan dalam kehidupan sehari-hari. Dengan komitmen yang kuat untuk memberdayakan warga Jakarta menjadi agen perubahan dalam menghadapi tantangan sampah, AMUTS menjadi rumah bagi siapa saja yang ingin berkontribusi dalam menjaga kebersihan, keberlanjutan, dan keindahan ibu kota Indonesia ini.
 
 </div>
-
-#### ACCOUNT ADMIN
-E-mail : ```admin@gmail.com```<br>
-Password : ```admin```
 <div align="center">
   
 ## WEBSITE VIEW
