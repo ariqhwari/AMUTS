@@ -25,28 +25,28 @@ const Datalist = async () => {
         const { data } = await getdata();
         return (
 
-            <table className="border-collapse border w-full">
+            <table className="w-full md:w-auto border-collapse border">
                 <thead>
-                    <tr className='bg-slate-50'>
-                        <th className="border border-gray-400 px-4 py-2">Nama</th>
-                        <th className="border border-gray-400 px-4 py-2">Alamat</th>
-                        <th className="border border-gray-400 px-4 py-2">No. Telepon</th>
-                        <th className="border border-gray-400 px-4 py-2">Jumlah Sampah (Kg)</th>
-                        <th className="border border-gray-400 px-4 py-2">Jenis Sampah</th>
-                        <th className="border border-gray-400 px-4 py-2">Total Harga (Rp.)</th>
-                        <th className="border border-gray-400 px-4 py-2">Actions</th>
+                    <tr className='bg-hijau3'>
+                        <th className=" border border-gray-400 md:text-sm text-xs md:py-2 md:p-5">Nama</th>
+                        <th className=" border border-gray-400 md:text-sm text-xs md:py-2 md:p-5">Alamat</th>
+                        <th className=" border border-gray-400 md:text-sm text-xs md:py-2 md:p-5">Telepon</th>
+                        <th className=" border border-gray-400 md:text-sm text-xs md:py-2 md:p-5">Kg</th>
+                        <th className=" border border-gray-400 md:text-sm text-xs md:py-2 md:p-5">Sampah</th>
+                        <th className=" border border-gray-400 md:text-sm text-xs md:py-2 md:p-5">Harga (Rp.)</th>
+                        <th className=" border border-gray-400 md:text-sm text-xs md:py-2 md:p-5">Act</th>
                     </tr>
                 </thead>
                 <tbody>
                     {data.map((d) => (
                         <tr key={d._id} className='text-center'>
-                            <td className="border border-gray-400 px-4 py-2">{d.nama}</td>
-                            <td className="border border-gray-400 px-4 py-2">{d.alamat}</td>
-                            <td className="border border-gray-400 px-4 py-2">{d.noTelp}</td>
-                            <td className="border border-gray-400 px-4 py-2">{d.jumlahSampah}</td>
-                            <td className="border border-gray-400 px-4 py-2">{d.jenisSampah}</td>
-                            <td className="border border-gray-400 px-4 py-2">{d.totalHarga}</td>
-                            <td className="border border-gray-400 px-4 py-2">
+                            <td className="border border-gray-400 md:text-sm text-xs md:py-2 py-2 px-4 md:px-0">{d.nama}</td>
+                            <td className="border border-gray-400 md:text-sm text-xs md:py-2 py-2 px-4 md:px-0">{d.alamat}</td>
+                            <td className="border border-gray-400 md:text-sm text-xs md:py-2 py-2 px-4 md:px-0">{d.noTelp}</td>
+                            <td className="border border-gray-400 md:text-sm text-xs md:py-2 py-2 px-4 md:px-0">{d.jumlahSampah}</td>
+                            <td className="border border-gray-400 md:text-sm text-xs md:py-2 py-2 px-4 md:px-0">{d.jenisSampah}</td>
+                            <td className="border border-gray-400 md:text-sm text-xs md:py-2 py-2 px-4 md:px-0">{d.totalHarga}</td>
+                            <td className="border border-gray-400 md:text-sm text-xs md:py-2 py-2 px-4 md:px-0">
                                 <div className='flex items-center justify-center'>
                                     <Link href={`dashboard/edit/${d.id}`} className=''>
                                         <HiPencilAlt size={24} />

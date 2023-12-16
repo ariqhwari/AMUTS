@@ -51,8 +51,6 @@ const Receipt = async ({ params }) => {
 
         const formattedDate = formattedCreatedAt.toLocaleDateString('id-ID', options);
 
-
-
         return (
             <div className="h-screen flex items-center justify-center">
                 <div className="invoice-box">
@@ -65,15 +63,15 @@ const Receipt = async ({ params }) => {
                             priority
                         />
                     </div>
-                    <table>
+                    <table className='md:w-2/3 lg:w-1/2'>
                         <thead>
                             <tr className="information">
-                                <td>
+                                <td className='md:text-center'>
                                     {nama}<br />
                                     {alamat}<br />
                                     {noTelp}
                                 </td>
-                                <td>
+                                <td className='md:text-right'>
                                     Invoice: {id}<br />
                                     Created: {formattedDate}<br />
                                 </td>
@@ -98,7 +96,7 @@ const Receipt = async ({ params }) => {
                             </tr>
                             <tr>
                                 <td></td>
-                                <td>
+                                <td className='md:text-right'>
                                     <Link href={`/`}>
                                         <button className='p-2 bg-hijau2 text-black w-1/2 rounded-xl hover:scale-105'>Home</button>
                                     </Link>
